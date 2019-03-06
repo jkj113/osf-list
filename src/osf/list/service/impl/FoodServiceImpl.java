@@ -13,7 +13,7 @@ public class FoodServiceImpl implements FoodService {
 	public List<Map<String, String>> selectFoodList() {
 		return fdao.selectFoodList();
 		}
-
+ 
 	@Override
 	public boolean insertFood(Map<String, String> food) {
 		return fdao.insertFood(food);

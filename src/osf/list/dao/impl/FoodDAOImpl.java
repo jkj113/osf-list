@@ -5,7 +5,7 @@ import java.util.Map;
 
 import osf.list.dao.FoodDAO;
 import osf.list.data.FoodData;
-
+ 
 public class FoodDAOImpl implements FoodDAO {
 //FOOD_LIST의 구성원은 MAP
 	@Override

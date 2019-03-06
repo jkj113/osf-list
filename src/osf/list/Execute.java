@@ -9,7 +9,7 @@ import osf.list.controller.FoodController;
 public class Execute {
 public static void main(String[] args) {
 	FoodController fc = new FoodController(); //controller를 호출해야 하니까 메모리 생성
-	
+	 
 	Map<String,String> req = new HashMap<>(); //요청할 객체
 	Map<String,Object> res = new HashMap<>(); //응답 받을 객체
 	req.put("cmd","food");

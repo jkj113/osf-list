@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
+ 
 public class FoodData {
 	public static final List<Map<String, String>> FOOD_LIST = new ArrayList<>();
 	static {
